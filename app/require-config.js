@@ -22,7 +22,8 @@ require.config({
 		angularRoute: 'bower_components/angular-route/angular-route',
 		angularMocks: 'bower_components/angular-mocks/angular-mocks',
 		text: 'bower_components/requirejs-text/text',
-		jquery: 'bower_components/jquery/dist/jquery'
+		jquery: 'bower_components/jquery/dist/jquery.min',
+		jqueryui: 'bower_components/jquery-ui/jquery-ui.min'
 	},
 	shim: {
 		'angular' : {'exports' : 'angular'},
