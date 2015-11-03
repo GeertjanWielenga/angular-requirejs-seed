@@ -12,6 +12,8 @@
     "angular-mocks": "~1.4.x",
     "html5-boilerplate": "~4.3.0",
     "requirejs-text": "2.0.x",
-    "requirejs": "2.1.x"
+    "requirejs": "2.1.x",
+    "jquery": "2.1.4",
+    "jquery-ui": "1.11.4"
   }
 }
