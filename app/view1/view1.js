@@ -13,7 +13,11 @@ define([
 		});
 	}])
 	.controller('View1Ctrl', [function() {
-            $("#myDatepicker").datepicker();
+            $('#myDatepicker').datepicker({
+                onSelect: function (dateText, inst) {
+                    $("input[name='mydate']").val(dateText);
+                }
+            });
 	}]);
 });
 
