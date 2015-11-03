@@ -1,7 +1,8 @@
 'use strict';
 define([
 	'angular',
-	'angularRoute'
+	'angularRoute',
+        'jquery'
 ], function(angular) {
 	angular.module('myApp.view1', ['ngRoute'])
 	.config(['$routeProvider', function($routeProvider) {
@@ -11,7 +12,9 @@ define([
 		});
 	}])
 	.controller('View1Ctrl', [function() {
-		
+            $("p").click(function(){
+                $(this).hide();
+            });
 	}]);
 });
 
